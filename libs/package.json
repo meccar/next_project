@@ -1,6 +1,6 @@
 {
   "name": "@nest-app/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./common/src/index.ts",
   "types": "./common/src/index.ts",
   "files": [
