@@ -1,0 +1,20 @@
+{
+  "name": "@nest-app/common",
+  "version": "1.0.0",
+  "main": "./common/src/index.ts",
+  "types": "./common/src/index.ts",
+  "files": [
+    "./src/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./*",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/mongoose": "^10.0.10",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.1"
+  }
+}
